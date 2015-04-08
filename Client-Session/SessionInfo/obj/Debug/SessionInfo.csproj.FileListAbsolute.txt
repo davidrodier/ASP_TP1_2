@@ -1,0 +1,6 @@
+C:\Users\Nicolas Chourot\Desktop\SessionInfo\bin\SessionInfo.dll.config
+C:\Users\Nicolas Chourot\Desktop\SessionInfo\bin\SessionInfo.dll
+C:\Users\Nicolas Chourot\Desktop\SessionInfo\bin\SessionInfo.pdb
+C:\Users\Nicolas Chourot\Desktop\SessionInfo\obj\Debug\SessionInfo.csprojResolveAssemblyReference.cache
+C:\Users\Nicolas Chourot\Desktop\SessionInfo\obj\Debug\SessionInfo.dll
+C:\Users\Nicolas Chourot\Desktop\SessionInfo\obj\Debug\SessionInfo.pdb

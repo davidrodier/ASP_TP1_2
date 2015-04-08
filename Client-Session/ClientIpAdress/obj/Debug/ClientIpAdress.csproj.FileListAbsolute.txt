@@ -1,0 +1,11 @@
+C:\Users\Nicolas Chourot\Desktop\ClientIpAdress\obj\Debug\ClientIpAdress.csprojResolveAssemblyReference.cache
+C:\Users\Nicolas Chourot\Desktop\ClientIpAdress\bin\ClientIpAdress.dll.config
+C:\Users\Nicolas Chourot\Desktop\ClientIpAdress\bin\ClientIpAdress.dll
+C:\Users\Nicolas Chourot\Desktop\ClientIpAdress\bin\ClientIpAdress.pdb
+C:\Users\Nicolas Chourot\Desktop\ClientIpAdress\obj\Debug\ClientIpAdress.dll
+C:\Users\Nicolas Chourot\Desktop\ClientIpAdress\obj\Debug\ClientIpAdress.pdb
+C:\Users\Nicolas Chourot\Desktop\KEF TP1 Stuff\ClientIpAdress\bin\ClientIpAdress.dll.config
+C:\Users\Nicolas Chourot\Desktop\KEF TP1 Stuff\ClientIpAdress\bin\ClientIpAdress.dll
+C:\Users\Nicolas Chourot\Desktop\KEF TP1 Stuff\ClientIpAdress\bin\ClientIpAdress.pdb
+C:\Users\Nicolas Chourot\Desktop\KEF TP1 Stuff\ClientIpAdress\obj\Debug\ClientIpAdress.dll
+C:\Users\Nicolas Chourot\Desktop\KEF TP1 Stuff\ClientIpAdress\obj\Debug\ClientIpAdress.pdb

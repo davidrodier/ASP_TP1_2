@@ -1,0 +1,12 @@
+C:\Users\Nicolas Chourot\Desktop\EmailSender\obj\Debug\EmailSender.csprojResolveAssemblyReference.cache
+C:\Users\Nicolas Chourot\Desktop\EmailSender\bin\EmailSender.dll.config
+C:\Users\Nicolas Chourot\Desktop\EmailSender\bin\EmailSender.dll
+C:\Users\Nicolas Chourot\Desktop\EmailSender\bin\EmailSender.pdb
+C:\Users\Nicolas Chourot\Desktop\EmailSender\obj\Debug\EmailSender.dll
+C:\Users\Nicolas Chourot\Desktop\EmailSender\obj\Debug\EmailSender.pdb
+C:\Users\Nicolas Chourot\Desktop\KEF TP1 Stuff\EmailSender\bin\EmailSender.dll.config
+C:\Users\Nicolas Chourot\Desktop\KEF TP1 Stuff\EmailSender\bin\EmailSender.dll
+C:\Users\Nicolas Chourot\Desktop\KEF TP1 Stuff\EmailSender\bin\EmailSender.pdb
+C:\Users\Nicolas Chourot\Desktop\KEF TP1 Stuff\EmailSender\obj\Debug\EmailSender.csprojResolveAssemblyReference.cache
+C:\Users\Nicolas Chourot\Desktop\KEF TP1 Stuff\EmailSender\obj\Debug\EmailSender.dll
+C:\Users\Nicolas Chourot\Desktop\KEF TP1 Stuff\EmailSender\obj\Debug\EmailSender.pdb

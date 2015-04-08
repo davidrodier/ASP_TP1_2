@@ -1,0 +1,5 @@
+C:\Users\Nicolas Chourot\Desktop\ClientIpAdress\bin\ClientIpAdress.dll.config
+C:\Users\Nicolas Chourot\Desktop\ClientIpAdress\bin\ClientIpAdress.dll
+C:\Users\Nicolas Chourot\Desktop\ClientIpAdress\bin\ClientIpAdress.pdb
+C:\Users\Nicolas Chourot\Desktop\ClientIpAdress\obj\Release\ClientIpAdress.dll
+C:\Users\Nicolas Chourot\Desktop\ClientIpAdress\obj\Release\ClientIpAdress.pdb

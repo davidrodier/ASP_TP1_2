@@ -1,0 +1,6 @@
+C:\Users\201329288\Desktop\ASP_TP1_2\TP1_2_David_Rodier\TP1_2_David_Rodier\bin\TP1_2_David_Rodier.dll.config
+C:\Users\201329288\Desktop\ASP_TP1_2\TP1_2_David_Rodier\TP1_2_David_Rodier\bin\TP1_2_David_Rodier.dll
+C:\Users\201329288\Desktop\ASP_TP1_2\TP1_2_David_Rodier\TP1_2_David_Rodier\bin\TP1_2_David_Rodier.pdb
+C:\Users\201329288\Desktop\ASP_TP1_2\TP1_2_David_Rodier\TP1_2_David_Rodier\obj\Debug\TP1_2_David_Rodier.csprojResolveAssemblyReference.cache
+C:\Users\201329288\Desktop\ASP_TP1_2\TP1_2_David_Rodier\TP1_2_David_Rodier\obj\Debug\TP1_2_David_Rodier.dll
+C:\Users\201329288\Desktop\ASP_TP1_2\TP1_2_David_Rodier\TP1_2_David_Rodier\obj\Debug\TP1_2_David_Rodier.pdb

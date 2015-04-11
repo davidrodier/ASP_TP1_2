@@ -1,0 +1,16 @@
+﻿body {
+}
+.submitBTN{
+    width:150px;
+    margin-left:50%;
+}
+table{
+    width:250px;
+    margin:auto;
+    padding:2px;
+    border:1px solid black;
+    background-color:lightgray;
+}
+td{
+    width:75px;
+}

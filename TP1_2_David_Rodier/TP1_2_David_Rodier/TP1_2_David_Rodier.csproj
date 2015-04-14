@@ -57,6 +57,10 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\DataBase.mdf" />
+    <Content Include="App_Data\DataBase_log.ldf">
+      <DependentUpon>DataBase.mdf</DependentUpon>
+    </Content>
     <Content Include="Inscription.aspx" />
     <Content Include="Inscription_CSS.css" />
     <Content Include="Login_CSS.css" />
@@ -102,7 +106,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Data\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>

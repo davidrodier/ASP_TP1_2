@@ -18,7 +18,7 @@
                 <td><asp:Button runat="server" ID="Inscription" Text="Inscription" class="submitBTN" PostBackUrl="~/Inscription.aspx"/></td>
             </tr>
             <tr>
-                <td><input type="submit" ID="Oublie" value="Mot de passe oublié ?" class="submitBTN"/></td>
+                <td><asp:Button runat="server" ID="Oublie" Text="Mot de passe oublié ?" class="submitBTN" OnClick="Oublie_OnClick"/></td>
             </tr>
             <tr> 
                 <td colspan="3" style="text-align:left;"> <asp:ValidationSummary ID="VGS_Logi" runat="server" ValidationGroup="VG_Login" HeaderText="Résumé des erreurs: &lt;hr/&gt;" /> </td> 

@@ -47,5 +47,27 @@ namespace TP1_2_David_Rodier
             //    GetValues(); 
             return reader.HasRows; 
         }
+        public String Getpassword(String username)
+        {
+            QuerySQL("SELECT PASSWORD FROM " + SQLTableName + " WHERE USERNAME = '" + username + "'");
+            if (reader.HasRows)
+            {
+                reader.Read();
+                return reader.GetString(0);
+            }
+            else
+                return "ERROR";
+        }
+        public String Getemail(String username)
+        {
+            QuerySQL("SELECT EMAIL FROM " + SQLTableName + " WHERE USERNAME = '" + username + "'");
+            if (reader.HasRows)
+            {
+                reader.Read();
+                return  reader.GetString(0);
+            }
+            else
+                return "ERROR";
+        }
     }
 }

@@ -4,10 +4,12 @@
     <div>
         <table>
             <tr>
-                <td><asp:Label runat="server">Nom d'usager</asp:Label></td><td><asp:TextBox ID="Username" runat="server"></asp:TextBox></td>
+                <td><asp:Label runat="server">Nom d'usager</asp:Label></td><td><asp:TextBox ID="TB_Username" runat="server"></asp:TextBox></td>
+                <td><asp:CustomValidator ID="CV_TB_UserName" runat="server" ErrorMessage="Ce nom d'usager n'existe pas!" Text="!" ValidationGroup="VG_Login" OnServerValidate="CV_TB_UserName_ServerValidate"> </asp:CustomValidator></td>
             </tr>
             <tr>
-                <td><asp:Label runat="server">Mot de passe</asp:Label></td><td><asp:TextBox ID="Password" runat="server"></asp:TextBox></td>
+                <td><asp:Label runat="server">Mot de passe</asp:Label></td><td><asp:TextBox ID="TB_Password" runat="server" TextMode="Password"></asp:TextBox></td>
+                <td><asp:CustomValidator ID="CV_TB_Password" runat="server" ErrorMessage="Mot de passe invalide!" Text="!" ValidationGroup="VG_Login" OnServerValidate="CV_TB_Password_ServerValidate"> </asp:CustomValidator></td>
             </tr>
             <tr>
                 <td><input type="submit" ID="Connexion" value="Connexion" class="submitBTN"/></td>
@@ -17,6 +19,9 @@
             </tr>
             <tr>
                 <td><input type="submit" ID="Oublie" value="Mot de passe oublié ?" class="submitBTN"/></td>
+            </tr>
+            <tr> 
+                <td colspan="3" style="text-align:left;"> <asp:ValidationSummary ID="VGS_Logi" runat="server" ValidationGroup="VG_Login" HeaderText="Résumé des erreurs: &lt;hr/&gt;" /> </td> 
             </tr>
         </table>
      </div>

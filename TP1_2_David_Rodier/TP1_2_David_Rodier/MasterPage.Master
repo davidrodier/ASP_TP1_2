@@ -4,15 +4,17 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-<link rel="stylesheet" type="text/css" href="CSS.css">
+<link rel="stylesheet" type="text/css" href="Master.css"/>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title></title>
 </head>
 <body>
     <form id="form1" runat="server">
     <div>
-            <asp:Label ID="Title" runat="server"> Site Web </asp:Label>
-            <br /><hr />
+            <asp:Label ID="Title" runat="server"> Login... </asp:Label>
+            <asp:Label runat="server" style="position:absolute; right:15%; font-weight:bolder;">Username</asp:Label>
+            <img id="Pic" src="/Images/Anonymous.png" style="width:75px; position:absolute; right:5%; top:2px;"/>
+            <br /><br /><br /><hr /><br /><br />
         <asp:ContentPlaceHolder ID="ContentHeader" runat="server">
         
         </asp:ContentPlaceHolder>

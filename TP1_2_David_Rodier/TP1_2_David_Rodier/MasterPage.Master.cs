@@ -9,9 +9,9 @@ namespace TP1_2_David_Rodier
 {
    public partial class MasterPage : System.Web.UI.MasterPage
    {
-       public String UserName = "Username";
       protected void Page_Load(object sender, EventArgs e)
       {
+         Master_User.Text = Session["LogedUser"].ToString();
       }
    }
 }

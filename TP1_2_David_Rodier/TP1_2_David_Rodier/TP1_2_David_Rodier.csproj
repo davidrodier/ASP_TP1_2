@@ -78,6 +78,7 @@
     <Content Include="Master.css" />
     <Content Include="Global.asax" />
     <Content Include="Login.aspx" />
+    <Content Include="Modifier.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -112,6 +113,13 @@
     </Compile>
     <Compile Include="MasterPage.Master.designer.cs">
       <DependentUpon>MasterPage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Modifier.aspx.cs">
+      <DependentUpon>Modifier.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Modifier.aspx.designer.cs">
+      <DependentUpon>Modifier.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SqlExpressUtilities.cs" />

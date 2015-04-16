@@ -12,7 +12,7 @@
                 <td><asp:CustomValidator ID="CV_TB_Password" runat="server" ErrorMessage="Mot de passe invalide!" Text="!" ValidationGroup="VG_Login" OnServerValidate="CV_TB_Password_ServerValidate"> </asp:CustomValidator></td>
             </tr>
             <tr>
-                <td><input type="submit" ID="Connexion" value="Connexion" class="submitBTN"/></td>
+                <td><asp:Button runat="server" ID="Connexion" Text="Connexion" class="submitBTN"/></td>
             </tr>
             <tr>
                 <td><asp:Button runat="server" ID="Inscription" Text="Inscription" class="submitBTN" PostBackUrl="~/Inscription.aspx"/></td>

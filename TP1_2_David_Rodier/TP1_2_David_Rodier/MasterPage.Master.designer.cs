@@ -31,6 +31,15 @@ namespace TP1_2_David_Rodier {
         protected global::System.Web.UI.WebControls.Label Title;
         
         /// <summary>
+        /// Master_User control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Master_User;
+        
+        /// <summary>
         /// ContentHeader control.
         /// </summary>
         /// <remarks>

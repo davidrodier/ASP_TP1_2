@@ -11,12 +11,13 @@ namespace TP1_2_David_Rodier
 {
     public partial class Inscription : System.Web.UI.Page
     {
+        public static String UserName = "";
         protected void Page_Load(object sender, EventArgs e)
         {
             if (!Page.IsPostBack)
             {
                 Session["captcha"] = BuildCaptcha();
-            }
+            }   
         }
 
         Random random = new Random();

@@ -49,6 +49,15 @@ namespace TP1_2_David_Rodier {
         protected global::System.Web.UI.WebControls.CustomValidator CV_TB_Password;
         
         /// <summary>
+        /// Connexion control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Connexion;
+        
+        /// <summary>
         /// Inscription control.
         /// </summary>
         /// <remarks>

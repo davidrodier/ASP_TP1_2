@@ -15,7 +15,7 @@ namespace TP1_2_David_Rodier
         public USERS(String connexionString, System.Web.UI.Page Page) : base(connexionString, Page) 
         { 
             SQLTableName = "USERS"; 
-        } 
+        }
         public override void GetValues() 
         { 
             ID = int.Parse(FieldsValues[0]); 

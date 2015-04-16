@@ -26,7 +26,10 @@ namespace TP1_2_David_Rodier
             args.IsValid = users.CheckPassword(TB_Username.Text, TB_Password.Text);
 
             if (args.IsValid)
-                Goto_Index();
+            {
+                ((Label)Master.FindControl("UserName")).Text = TB_Username.Text;
+                Goto_Index("/Index.aspx");
+            }
         }
         protected void Oublie_OnClick(Object sender, EventArgs e)
         {
@@ -58,9 +61,9 @@ namespace TP1_2_David_Rodier
             page.ClientScript.RegisterStartupScript(page.GetType(), "alert", "alert('" + message + "');", true);
         }
 
-        protected void Goto_Index()
+        protected void Goto_Index(String index)
         {
-            Response.Redirect("/Index.aspx");
+            Response.Redirect(index);
         }
     }
 }

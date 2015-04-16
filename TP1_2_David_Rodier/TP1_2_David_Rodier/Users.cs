@@ -24,9 +24,9 @@ namespace TP1_2_David_Rodier
             FullName = FieldsValues[3];
             Avatar = FieldsValues[4];
         } 
-        public override void Insert() 
+        public override void Insert(int id, String username, String password, String fullname, String avatar) 
         { 
-            InsertRecord(UserName, Password, FullName, Avatar); 
+            InsertRecord(id, username, password, fullname, avatar); 
         } 
         public override void Update() 
         { 
@@ -68,6 +68,13 @@ namespace TP1_2_David_Rodier
             }
             else
                 return "ERROR";
+        }
+        public int SelectBiggestInt()
+        {
+            QuerySQL("SELECT MAX(ID) FROM " + SQLTableName);
+            reader.Read();
+
+            return reader.GetInt32(0)+1;
         }
     }
 }

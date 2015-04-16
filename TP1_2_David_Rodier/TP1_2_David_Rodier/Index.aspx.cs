@@ -13,5 +13,9 @@ namespace TP1_2_David_Rodier
         {
 
         }
+        protected void Deco_OnClick(object sender, EventArgs e)
+        {
+            Response.Redirect("Login.aspx");
+        }
     }
 }

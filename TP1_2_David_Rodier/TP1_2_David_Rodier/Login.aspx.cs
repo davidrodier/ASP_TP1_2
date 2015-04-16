@@ -27,7 +27,6 @@ namespace TP1_2_David_Rodier
 
             if (args.IsValid)
             {
-                ((Label)Master.FindControl("UserName")).Text = TB_Username.Text;
                 Goto_Index("/Index.aspx");
             }
         }

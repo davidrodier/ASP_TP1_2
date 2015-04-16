@@ -8,31 +8,37 @@
             <td>
                 <table>
                     <tr>
-                        <td><span>Nom au complet</span></td><td><input class="TextBox" /></td>
+                        <td><span>Nom au complet</span></td><td><asp:TextBox runat="server" ID="TB_Name" class="TextBox" /></td>
+                        <td><asp:RequiredFieldValidator runat="server" ID="RFV_Name" ControlToValidate="TB_Name" ErrorMessage="Aucun nom entré" ValidationGroup="Subscribe_Validation" Text="!"/></td>
                     </tr>
                     <tr>
-                        <td><span>Nom d'usage</span></td><td><input class="TextBox" /></td>
+                        <td><span>Nom d'usage</span></td><td><asp:TextBox runat="server" ID="TB_Username" class="TextBox" /></td>
+                        <td><asp:RequiredFieldValidator runat="server" ID="RFV_Username" ControlToValidate="TB_Username" ErrorMessage="Aucun Username entré" ValidationGroup="Subscribe_Validation" Text="!"/></td>
                     </tr>
                     <tr>
-                        <td><span>Mot de passe</span></td><td><input class="TextBox" /></td>
+                        <td><span>Mot de passe</span></td><td><asp:TextBox runat="server" ID="TB_Password" class="TextBox" /></td>
+                        <td><asp:RequiredFieldValidator runat="server" ID="RFV_Password" ControlToValidate="TB_Password" ErrorMessage="Aucun Password entré" ValidationGroup="Subscribe_Validation" Text="!"/></td>
                     </tr>
                     <tr>
-                        <td><span>Confirmation du mot de passe</span></td><td><input class="TextBox" /></td>
+                        <td><span>Confirmation du mot de passe</span></td><td><asp:TextBox runat="server" ID="TB_ConfirmPassword" class="TextBox" /></td>
+                        <td><asp:CustomValidator runat="server" ID="CV_ConfirmPassword" ControlToValidate="TB_ConfirmPassword" OnServerValidate="CV_ConfirmPassword_OnClick" ErrorMessage="Mot de passe pas identique" ValidationGroup="Subscribe_Validation" Text="!"/></td>
                     </tr>
                     <tr>
-                        <td><span>Adresse de courriel</span></td><td><input class="TextBox" /></td>
+                        <td><span>Adresse de courriel</span></td><td><asp:TextBox runat="server" ID="TB_Email" class="TextBox" /></td>
+                        <td><asp:RequiredFieldValidator runat="server" ID="RFV_Email" ControlToValidate="TB_Email" ErrorMessage="Aucune adresse entré" ValidationGroup="Subscribe_Validation" Text="!"/></td>
                     </tr>
                     <tr>
-                        <td><span>Confirmation de l'adresse de courriel</span></td><td><input class="TextBox" /></td>
+                        <td><span>Confirmation de l'adresse de courriel</span></td><td><asp:TextBox runat="server" ID="TB_ConfirmEmail" class="TextBox" /></td>
+                        <td><asp:CustomValidator runat="server" ID="CV_ConfirmEmail" ControlToValidate="TB_ConfirmEmail" OnServerValidate="CV_ConfirmEmail_OnClick" ErrorMessage="Adresse non identique" ValidationGroup="Subscribe_Validation" Text="!"/></td>
                     </tr>
                     <tr>
                         <td>
-                            <asp:Button runat="server" Text="S'inscrire..." class="submitButton"/>
+                            <asp:Button runat="server" Text="S'inscrire..." class="submitButton" ValidationGroup="Subscribe_Validation" OnClick="BTN_Submit_Click"/>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <asp:Button runat="server" Text="Annuler..." class="submitButton" PostBackUrl="~/Login.aspx"/>
+                            <asp:Button runat="server" Text="Annuler..." ValidationGroup="Subscribe_Validation" class="submitButton" PostBackUrl="~/Login.aspx"/>
                         </td>
                     </tr>
                 </table>
@@ -86,17 +92,21 @@
                             </div>
                         </td>
                     </tr>
-                    <tr style="text-align:center;">
+                    <!--<tr style="text-align:center;">
                         <td class="RightPNL"> <br/><img id="New_IMG_Avatar" class="Avatar" src="Images/Anonymous.png" style="border-width:0px;"/></td>
                     </tr>
                     <tr>
                         <td style="text-align:center;" class="RightPNL">
-                            <input type="file" name="ctl00$MainMasterContent$FU_Avatar" id="FU_Avatar" onchange="PreLoadImage();" style="display:none;">
+                            <input type="file" name="ctl00$MainMasterContent$FU_Avatar" ID="FU_Avatar" onchange="PreLoadImage();" style="display:none;"/>
                             <input type="button" class="AvatarBrowseButton" id="uploadTrigger" onclick="document.getElementById('FU_Avatar').click();" value="Choisir...">
                         </td>
                     </tr>
+                    -->
                 </table>
             </td>
+        </tr>
+        <tr> 
+            <td colspan="3" style="text-align:left;"> <asp:ValidationSummary ID="VGS_Logi" runat="server" ValidationGroup="Subscribe_Validation" HeaderText="Résumé des erreurs: &lt;hr/&gt;" /> </td> 
         </tr>
     </table>
     </div>

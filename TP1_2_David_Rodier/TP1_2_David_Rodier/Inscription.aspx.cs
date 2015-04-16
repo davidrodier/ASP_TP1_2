@@ -79,12 +79,34 @@ namespace TP1_2_David_Rodier
             if (Page.IsValid)
             {
                 Session["message"] = "(Inscription réussie - complétez maintenant votre profil...)";
-                Response.Redirect("Profil.aspx");
+                Response.Redirect("Login.aspx");
             }
         }
         protected void CV_Captcha_ServerValidate(object source, ServerValidateEventArgs args)
         {
             args.IsValid = (TB_Captcha.Text == (string)Session["captcha"]);
+        }
+        protected void CV_ConfirmPassword_OnClick(object source, ServerValidateEventArgs args)
+        {
+            if (TB_ConfirmPassword.Text == "")
+            {
+                args.IsValid = false;
+            }
+            else
+            {
+                args.IsValid = (TB_ConfirmPassword.Text == TB_Password.Text);
+            }
+        }
+        protected void CV_ConfirmEmail_OnClick(object source, ServerValidateEventArgs args)
+        {
+            if (TB_ConfirmEmail.Text == "")
+            {
+                args.IsValid = false;
+            }
+            else
+            {
+                args.IsValid = (TB_ConfirmEmail.Text == TB_Email.Text);
+            }
         }
     }
 }

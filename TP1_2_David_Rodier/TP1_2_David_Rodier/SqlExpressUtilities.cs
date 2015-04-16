@@ -243,7 +243,7 @@ namespace SqlExpressUtilities
         }
 
         // Insérer un nouvel enregistrement
-        public virtual void Insert()
+        public virtual void Insert(int i, String s , String a , String b , String c) 
         {
             InsertRecord();
         }

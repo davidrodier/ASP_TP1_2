@@ -29,7 +29,7 @@
                     </tr>
                     <tr>
                         <td>
-                            <asp:Button runat="server" Text="Annuler..." ValidationGroup="Subscribe_Validation" class="submitButton" PostBackUrl="~/Login.aspx"/>
+                            <asp:Button runat="server" Text="Annuler..." ValidationGroup="Subscribe_Validation" class="submitButton" PostBackUrl="~/Index.aspx"/>
                         </td>
                     </tr>
                 </table>

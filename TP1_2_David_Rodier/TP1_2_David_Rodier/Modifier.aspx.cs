@@ -18,6 +18,7 @@ namespace TP1_2_David_Rodier
             TB_Password.Text = Session["Password"].ToString();
             TB_Username.Text = Session["Username"].ToString();
             Session["Modify"] = "false";
+            Session["LogedUser"] = TB_Username.Text;
          }
       }
       protected void BTN_Submit_Click(object sender, EventArgs e)
@@ -35,7 +36,7 @@ namespace TP1_2_David_Rodier
             Session["Modify"] = "true";
 
             Session["message"] = "(Inscription réussie - complétez maintenant votre profil...)";
-            Response.Redirect("Login.aspx");
+            Response.Redirect("Index.aspx");
          }
       }
    }

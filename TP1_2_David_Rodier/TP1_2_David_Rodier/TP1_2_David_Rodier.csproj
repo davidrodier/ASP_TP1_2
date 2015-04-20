@@ -62,6 +62,7 @@
       <DependentUpon>DataBase.mdf</DependentUpon>
     </Content>
     <Content Include="ClientFormUtilities.js" />
+    <Content Include="OnlineUsers.aspx" />
     <Content Include="Index.aspx" />
     <Content Include="Inscription.aspx" />
     <Content Include="Inscription_CSS.css" />
@@ -83,6 +84,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="EMail.cs" />
+    <Compile Include="OnlineUsers.aspx.cs">
+      <DependentUpon>OnlineUsers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OnlineUsers.aspx.designer.cs">
+      <DependentUpon>OnlineUsers.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>

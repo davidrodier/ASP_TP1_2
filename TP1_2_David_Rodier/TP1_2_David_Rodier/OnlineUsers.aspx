@@ -3,4 +3,5 @@
     <div>
         <asp:Panel id="PN_GridView" runat="server"></asp:Panel>  
     </div>
+    <asp:Button runat="server" PostBackURL="Index.aspx" Text="Retour..."/>
 </asp:Content>

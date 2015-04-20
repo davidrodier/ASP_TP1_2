@@ -17,6 +17,8 @@ namespace TP1_2_David_Rodier
       }
       protected void Deco_OnClick(object sender, EventArgs e)
       {
+         USERS users = new USERS((string)Application["DB"], this);
+         users.NonQuerySQL("UPDATE USERS SET ONLINE='N' WHERE USERNAME='" + Session["LogedUser"].ToString() + "'");
          Response.Redirect("Login.aspx");
       }
       protected void Modifier_OnClick(object sender, EventArgs e)

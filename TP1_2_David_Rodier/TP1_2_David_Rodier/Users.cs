@@ -73,6 +73,7 @@ namespace TP1_2_David_Rodier
       public String[] SelectByUsername(String username)
       {
          String[] ReturnValue = { "", "", "", "" };
+         
          QuerySQL("SELECT USERNAME, PASSWORD, FULLNAME, EMAIL FROM USERS WHERE USERNAME='" + username + "'");
 
          reader.Read();

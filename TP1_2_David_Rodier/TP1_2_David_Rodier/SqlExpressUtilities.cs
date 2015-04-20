@@ -402,7 +402,21 @@ namespace SqlExpressUtilities
                      else
                      {
                         Type type = FieldsTypes[i];
-                        if (SQLHelper.IsNumericType(type))
+                        if (i == 5)
+                        {
+                           Image img = new Image();
+                           if(FieldsValues[i][0] == 'Y')
+                           {
+                              img.ImageUrl = "/Images/OnLine.png";
+                           }
+                           else
+                           {
+                              img.ImageUrl = "/Images/OffLine.png";
+                           }
+
+                           td.Controls.Add(img);
+                        }
+                        else if (SQLHelper.IsNumericType(type))
                         {
                            td.Text = FieldsValues[i].ToString();
                            // IMPORTANT! Il faut inclure dans la section style
